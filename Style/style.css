@@ -1,0 +1,1138 @@
+@import url(font1.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.width960 {
+    width: 943px;
+}
+
+header {
+    margin: auto;
+    height: 280px;
+}
+
+.up {
+    display: flex;
+    height: 280px;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    margin: 70px 150px 0 0;
+}
+
+.logo p {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "League Gothic";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+}
+
+.logo p span {
+    color: #51395c;
+}
+
+header menu {
+    width: 631px;
+    height: 18px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+}
+
+header ol {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+
+header ol li:hover {
+    border-bottom: 2px solid #d4a0e9;
+}
+
+.medium {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.medium1 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.text {
+    width: 502px;
+    height: 231px;
+    margin-top: 95px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.text p:first-child {
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.text p:nth-child(2) {
+    color: #edbfff;
+    font-family: "League Gothic";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 10px 0;
+}
+
+.text p:last-child {
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    letter-spacing: -0.45px;
+    line-height: 24px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.phone {
+    width: 274px;
+    height: 400px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.phone1 {
+    position: absolute;
+    background-image: url(img/iPhone_4_copy.png);
+    width: 130px;
+    height: 268px;
+    top: 60px;
+}
+
+.phone2 {
+    position: absolute;
+    background-image: url(img/iPhone_4.png);
+    width: 197px;
+    height: 434px;
+    top: -20px;
+    left: 80px;
+    bottom: -15px;
+}
+
+.phone3 {
+    position: absolute;
+    background-image: url(img/Shape_14.png);
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    left: 140px;
+    top: 131px;
+}
+
+.phone4 {
+    position: absolute;
+    background-image: url(img/Ellipse_1.png);
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    left: 150px;
+    top: 141px;
+}
+
+.phone5 {
+    position: absolute;
+    background-image: url(img/Shape_15.png);
+    width: 22px;
+    height: 25px;
+    left: 167px;
+    top: 154px;
+}
+
+.down {
+    height: 170px;
+}
+
+.px960 {
+    margin: auto;
+}
+
+.down .img0 {
+    background-image: url(img/source_of_icons.png);
+    background-position: -55px -1px;
+    width: 85px;
+    height: 17px;
+    margin: 96px 0 0 720px;
+}
+
+.container2 {
+    background-image: url(img/Layer_23.png);
+}
+
+.company {
+    height: 342px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.img1 {
+    background-image: url(img/source_of_icons.png);
+    background-position: -410px 410px;
+    width: 25px;
+    height: 50px;
+}
+
+.img2 {
+    background-image: url(img/source_of_icons.png);
+    background-position: -333px 287px;
+    width: 28px;
+    height: 50px;
+
+}
+
+.img3 {
+    background-image: url(img/source_of_icons.png);
+    background-position: -492px 553px;
+    width: 25px;
+    height: 50px;
+}
+
+.company p:first-child {
+    width: 223px;
+    height: 25px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.company p:nth-child(2) {
+    width: 223px;
+    height: 120px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    margin: 20px 0 30px 0;
+}
+
+.company p:last-child {
+    font-size: 18px;
+    width: 223px;
+    font-family: "League Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.company p:last-child:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.text1,
+.text2,
+.text3 {
+    margin: 0 52px 0 25px;
+}
+
+.text3 {
+    margin-right: 0;
+}
+
+.container3 {
+    background-image: url(img/Layer\ 2\ copy.png);
+}
+
+article {
+    margin: 0 auto 75px auto;
+    padding: 100px 0 0 26px;
+}
+
+.article1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article11 {
+    background-image: url(img/Layer\ 60.png);
+    width: 430px;
+    height: 295px;
+    background-size: 100% 100%;
+    padding-top: 32px;
+    display: flex;
+}
+
+.photo {
+    background-image: url(img/source_of_icons.png);
+    background-position-y: bottom;
+    margin: -20px 0 0 -26px;
+    width: 56px;
+    height: 55px;
+}
+
+.article111 {
+    width: 354px;
+    height: 230px;
+    margin: - 25px auto 0;
+    padding-left: 18px;
+}
+
+.article111 p:first-child {
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: rgb(69, 69, 69);
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.article111 p span:first-child {
+    color: #edbfff;
+}
+
+.article111 p:last-child {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    width: 347px;
+    height: 162px;
+    margin-top: 10px;
+}
+
+.article21 {
+    width: 430px;
+    height: 275px;
+}
+
+.article21 h3 {
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    font-weight: normal;
+    margin: 35px 0 20px 0;
+}
+
+.photo21 {
+    width: 56px;
+    height: 55px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -69px 115px;
+    margin-bottom: 10px;
+}
+
+.photo22 {
+    width: 56px;
+    height: 55px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -140px 174px;
+    margin-bottom: 10px;
+}
+
+.photo23 {
+    width: 56px;
+    height: 55px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -212px 233px;
+}
+
+.article22 {
+    display: flex;
+}
+
+.posted {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(69, 69, 69);
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    width: 350px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.nunc {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(69, 69, 69);
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    width: 350px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.text0 {
+    margin-left: 20px;
+}
+
+.article21 .read {
+    font-size: 18px;
+    font-family: "League Gothic";
+    color: rgb(69, 69, 69);
+    line-height: 1.333;
+    text-align: right;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.img01 {
+    background-image: url(img/source_of_icons.png);
+    background-position: -55px -20px;
+    width: 85px;
+    height: 17px;
+    margin-left: 170px;
+}
+
+.logoMany {
+    height: 120px;
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+
+.whiteLine {
+    margin: auto;
+}
+
+.container3 .imgLogo {
+    background-image: url(img/logos1.png);
+    width: 780px;
+    background-repeat: no-repeat;
+    height: 80px;
+    margin: auto;
+}
+
+.container4 {
+    background-color: #ececec;
+}
+
+.gray {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.news {
+    width: 280px;
+    height: 250px;
+    padding-top: 100px;
+}
+
+.news p:first-child {
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.news span {
+    color: #b9b9b9;
+}
+
+.news p:last-child {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    width: 278px;
+    height: 168px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.container5 {
+    background-image: url(img/bg_copy.png);
+    height: 115px;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+    line-height: 115px;
+    justify-content: space-between;
+}
+
+footer ol {
+    display: flex;
+    width: 528px;
+    height: 15px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: "League Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer p {
+    width: 137px;
+    height: 13px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+}
+
+footer p span {
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+
+@media screen and (max-width: 960px) {
+    .width960 {
+        width: 749px;
+    }
+
+    .up {
+        display: block;
+        padding-top: 20px;
+    }
+
+    header ol {
+        margin-top: 35px;
+        width: 635px;
+    }
+
+    .text {
+        width: 272px;
+        height: 180px;
+        margin: 100px 0 0 25px;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .text p:first-child {
+        color: #ffffff;
+        font-family: "League Gothic";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 36px;
+
+    }
+
+    .text p:nth-child(2) {
+        color: #edbfff;
+        font-family: "League Gothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        margin: 10px 0;
+        overflow: hidden;
+        height: 27px;
+        width: 273px;
+    }
+
+    .text p:last-child {
+        font-family: "Open Sans Light";
+        font-weight: 300;
+        letter-spacing: -0.45px;
+        line-height: 24px;
+        color: #ffffff;
+        font-size: 16px;
+        overflow: hidden;
+        height: 110px;
+        width: 273px;
+    }
+
+    .text p:last-child::first-line {
+        line-height: 40px;
+    }
+
+    .down .img0 {
+        margin: 40px 0 0 560px;
+    }
+
+    .down {
+        height: 150px;
+    }
+
+    .company {
+        padding-left: 10px;
+    }
+
+    .company p:first-child {
+        width: 158px;
+        height: 23px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .company p:nth-child(2) {
+        width: 158px;
+        height: 142px;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+        margin: 15px 0 15px 0;
+    }
+
+    .company p:last-child {
+        width: 158px;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        margin: 0 52px 0 25px;
+    }
+
+    .text3 {
+        margin-right: 0;
+    }
+
+    .article11 {
+
+        width: 313px;
+        height: 280px;
+
+    }
+
+    .photo {
+        width: 53px;
+        height: 52px;
+    }
+
+    .article111 {
+        width: 250px;
+        height: 200px;
+    }
+
+    .article111 p:first-child {
+        font-size: 24px;
+        line-height: 24px;
+        width: 85px;
+        height: 42px;
+    }
+
+    .article111 p:last-child {
+        font-size: 16px;
+        line-height: 24px;
+        width: 248px;
+        height: 142px;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+
+    .article21 {
+        width: 332px;
+        height: 290px;
+    }
+
+    .photo21 {
+        width: 53px;
+        height: 49px;
+    }
+
+    .photo22 {
+        width: 53px;
+        height: 49px;
+    }
+
+    .photo23 {
+        width: 53px;
+        height: 49px;
+    }
+
+    .posted {
+        font-size: 15px;
+        width: 260px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    .nunc {
+        width: 260px;
+    }
+
+    .img01 {
+        width: 85px;
+        height: 17px;
+        margin-left: 135px;
+    }
+
+    .container3 .imgLogo {
+        width: 750px;
+        background-size: 750px;
+    }
+
+    .news {
+        width: 230px;
+        height: 200px;
+    }
+
+    .news p:first-child {
+        font-size: 24px;
+    }
+
+    .news p:last-child {
+        width: 205px;
+        height: 165px;
+        margin-top: 15px;
+    }
+
+    .container5 {
+        background-image: url(img/bg_copy.png);
+        height: 115px;
+    }
+
+    footer ol {
+        line-height: 100px;
+    }
+
+    footer p {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .width960 {
+        width: 465px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .up {
+        display: block;
+        height: 200px;
+    }
+
+    .logo {
+        margin: 70px auto 0 auto;
+    }
+
+    header menu {
+        width: 465px;
+        line-height: 50px;
+        position: relative;
+        z-index: 20;
+    }
+
+    header ol {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        flex-direction: column;
+        text-align: center;
+        width: 244px;
+        margin: auto;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        border: 1px solid #051116;
+        border-radius: 8px;
+        background-color: #36293e;
+        opacity: 0.9;
+        visibility: hidden;
+    }
+
+    header ol li:nth-child(2) {
+        border-top: 1px solid #45354d;
+    }
+
+    header ol:hover {
+        visibility: visible;
+    }
+
+    header ol li:first-child {
+        text-decoration: underline #d4a0e9;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        visibility: visible;
+        box-shadow: none;
+    }
+
+    header ol li:last-child {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    header ol li {
+        width: 244px;
+        height: 50px;
+        box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+    }
+
+    header ol li:hover {
+        border-bottom: 2px solid #d4a0e9;
+        background-color: #2b2231;
+    }
+
+    .medium {
+        height: 250px;
+    }
+
+    .medium1 {
+        height: 250px;
+    }
+
+    .text {
+        width: 200px;
+        height: 50px;
+    }
+
+    .text p:first-child {
+        font-size: 36px;
+    }
+
+    .text p:nth-child(2) {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .text p:last-child {
+        display: none;
+    }
+
+    .phone {
+        width: 192px;
+        height: 304px;
+    }
+
+    .phone1 {
+        background-size: 100% 100%;
+        top: 20px;
+        width: 110px;
+        height: 240px;
+    }
+
+    .phone2 {
+        background-size: 100% 100%;
+        width: 130px;
+        height: 304px;
+        left: 50px;
+        bottom: -50px;
+    }
+
+    .phone3 {
+        left: 80px;
+        top: 77px;
+    }
+
+    .phone4 {
+        left: 91px;
+        top: 87px;
+    }
+
+    .phone5 {
+        left: 105px;
+        top: 100px;
+    }
+
+    .down {
+        height: 100px;
+    }
+
+    .down .img0 {
+        margin: 25px 0 0 200px;
+    }
+
+    .container2 {
+        background-image: url(img/Layer_23.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .company {
+        height: 600px;
+        padding-top: 70px;
+    }
+
+    .img1 {
+        height: 30px;
+    }
+
+    .img2 {
+        height: 30px;
+
+    }
+
+    .img3 {
+        height: 50px;
+    }
+
+    .company p:first-child {
+        width: 364px;
+        height: 25px;
+        font-size: 24px;
+    }
+
+    .company p:nth-child(2) {
+        width: 364px;
+        height: 70px;
+        margin: 10px 0 20px 0;
+    }
+
+    .company p:last-child {
+        font-size: 18px;
+        width: 364px;
+        margin-bottom: 25px;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        margin: 0 20px 0 25px;
+    }
+
+    .text3 {
+        margin-right: 0;
+    }
+
+    .container3 {
+        background-image: url(img/Layer\ 2\ copy.png);
+    }
+
+    article {
+        padding: 70px 0 0 26px;
+    }
+
+    .article11 {
+        width: 416px;
+        height: 272px;
+    }
+
+    .article111 p:first-child {
+        width: 210px;
+        height: 25px;
+    }
+
+    .article111 p:last-child {
+        width: 347px;
+        height: 165px;
+    }
+
+    .article21 {
+        width: 430px;
+        height: 275px;
+    }
+
+    .article21 {
+        margin-left: 45px;
+    }
+
+    .read {
+        width: 280px;
+        margin: auto;
+    }
+
+    .img01 {
+        width: 85px;
+        height: 17px;
+        margin: -280px 0 0 170px;
+    }
+
+    .logoMany {
+        height: 240px;
+        padding-top: 40px;
+    }
+
+    .container3 .imgLogo {
+        background: none;
+        width: 350px;
+        height: 156px;
+        margin: auto;
+        background-image: url(img/logos.png);
+        background-repeat: no-repeat;
+    }
+
+    .gray {
+        height: 665px;
+        padding-top: 85px;
+    }
+
+    .news {
+        width: 440px;
+        height: 180px;
+        padding: 0;
+    }
+
+    .news p:first-child {
+        font-size: 24px;
+    }
+
+    .news p:last-child {
+        margin-top: 20px;
+        width: 440px;
+        height: 93px;
+    }
+
+    .container5 {
+        background-image: url(img/bg_copy.png);
+        height: 115px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer ol {
+        width: 440px;
+        line-height: 80px;
+        margin: auto;
+    }
+
+    footer p {
+        width: 137px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .width960 {
+        width: 300px;
+    }
+
+    header menu {
+        width: 300px;
+    }
+
+    .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .medium {
+        background-color: unset;
+        height: 200px;
+    }
+
+    .medium1 {
+        height: 200px;
+    }
+
+    .text p:nth-child(2) {
+        width: 200px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .down .img0 {
+        margin: 20px auto 0;
+    }
+
+    .company p:first-child {
+        width: 220px;
+    }
+
+    .company p:nth-child(2) {
+        width: 220px;
+    }
+
+    .company p:last-child {
+        width: 220px;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        margin: 0 10px 0 25px;
+    }
+
+    .article11 {
+        width: 271px;
+        height: 262px;
+    }
+
+    .article111 p:last-child {
+        width: 220px;
+        height: 165px;
+        overflow: hidden;
+    }
+
+    .article21 {
+        width: 271px;
+        height: 255px;
+        margin: 20px 0 0 -20px;
+    }
+
+    .read {
+        width: 280px;
+    }
+
+    .img01 {
+        margin: -280px auto 0 auto;
+    }
+
+    .posted {
+        width: 210px;
+        overflow: hidden;
+    }
+
+    .nunc {
+        width: 210px;
+        overflow: hidden;
+    }
+
+    .logoMany {
+        height: 350px;
+        padding-top: 40px;
+    }
+
+    .container3 .imgLogo {
+        background: none;
+        width: 240px;
+        height: 295px;
+        background-image: url(img/3-layers.png);
+        background-repeat: no-repeat;
+    }
+
+    .gray {
+        display: none;
+    }
+
+    footer ol {
+        display: none;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+}
